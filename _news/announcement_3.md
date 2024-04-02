@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper on ‘Masked Transformer for Electrocardiogram Classification’ is now on arXiv. [link](https://arxiv.org/pdf/2309.07136.pdf)
+Paper on ‘Masked Transformer for Electrocardiogram Classification’ is now on arXiv. [[link]](https://arxiv.org/pdf/2309.07136.pdf)
