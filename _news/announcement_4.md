@@ -6,4 +6,4 @@ related_posts: false
 ---
 
 Paper on ‘Multivariate Varying-coefficient Models via Tensor Decomposition’ has been accepted by Statistica Sinica.
-    [[link]](https://www3.stat.sinica.edu.tw/preprint/SS-2022-0103_Preprint.pdf)
+[[link]](https://www3.stat.sinica.edu.tw/preprint/SS-2022-0103_Preprint.pdf)
