@@ -2,14 +2,16 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Research Associate / Algorithm Specialist  
-zdy1224@icloud.com / zhouya@fuwai.com
+subtitle: Research Associate / Algorithm Specialist
 
 profile:
   align: right
   image: ya.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Email:</p>
+    <p>zhouya@fuwai.com</p>
+    <p>zdy1224@icloud.com</p>
   
   
 news: true # includes a list of news items
