@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Associate / Algorithm Specialist  *** zdy1224\@icloud.com / zhouya\@fuwai.com
+subtitle: Research Associate / Algorithm Specialist  
+zdy1224@icloud.com / zhouya@fuwai.com
 
 profile:
   align: right
