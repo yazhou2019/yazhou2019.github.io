@@ -9,8 +9,7 @@ profile:
   image: ya.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-  <p><a href="zdy1224@icloud.com">zdy1224[at]icloud[dot]com</a></p>
-  <p><a href="zhouya@fuwai.com">zhouya[at]fuwai[dot]com</a></p>
+  
   
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
