@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Associate / Algorithm Specialist  
+subtitle: Research Associate / Algorithm Specialist
 
 profile:
   align: right

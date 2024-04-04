@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Below is a list of preprints and publications.
-years: [2024, 2023, 2022, 2021]
+years: [2024, 2023, 2021]
 nav: true
 nav_order: 2
 ---
