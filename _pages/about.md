@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Research Associate and an Algorithm Specialist with the Department of Information Center, Fuwai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College. I recieved my Ph.D. degree in Statistics from Renmin University of China in 2021.
+I am a Research Associate and an Algorithm Specialist with the Department of Information Center, Fuwai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College. I recieved my Ph.D. degree in Statistics from Renmin University of China in 2021. (advisor: [Kejun He](http://isbd.ruc.edu.cn/sztd/c649d51f7a9d4557b25db81b705037e1.htm), [Raymond Wong](https://raymondkww.github.io))
 
 My research area is in Machine Learning and Deep Learning. Specific topics include tensor learning, nonlinear regression, self-supervised learning, and foundation models.
 
