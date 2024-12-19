@@ -22,4 +22,4 @@ I am a Research Associate and an Algorithm Specialist with the Department of Inf
 
 My research area is in Machine Learning and Deep Learning. Specific topics include tensor learning, nonlinear regression, self-supervised learning, and foundation models.
 
-I am also a practitioner in Artificial Intelligence. I have developed an assisted diagnosis AI product that has been deployed in the hospital.
+I am also a practitioner in Artificial Intelligence, having developed an AI-assisted diagnostic product that is now deployed in hospitals across China.
