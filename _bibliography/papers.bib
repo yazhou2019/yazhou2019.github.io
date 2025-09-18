@@ -6,25 +6,68 @@
 
 @article{zhou2025enhancing,
 	abbr={CIBM},
-	title={Enhancing automatic multilabel diagnosis of electrocardiogram signals: A masked transformer approach},
-	author={Zhou, Ya and Diao, Xiaolin and Huo, Yanni and Liu, Yang and Sun, Zhaohong and Fan, Xiaohan and Zhao, Wei},
-	journal={Computers in Biology and Medicine},
-	volume={196},
-	pages={110674},
-	year={2025},
-	publisher={Elsevier}
+	author = {Zhou, Ya and Diao, Xiaolin and Huo, Yanni and Liu, Yang and Sun, Zhaohong and Fan, Xiaohan and Zhao, Wei},
+	title = {Enhancing automatic multilabel diagnosis of electrocardiogram signals: A masked transformer approach},
+	selected={true},
+	journal = {Computers in Biology and Medicine},
+	pages = {110674},
+	year = {2025},
+	abstract = {Background and Objective : Electrocardiogram (ECG) is one of the most important diagnostic tools in clinical
+	applications. Although deep learning models have been widely applied to ECG classification tasks, their
+	accuracy remains limited, especially in handling complex signal patterns in real-world clinical settings. This
+	study explores the potential of Transformer models to improve ECG classification accuracy.
+	Methods: We present Masked Transformer for ECG classification (MTECG), a simple yet effective method
+	which adapts the image-based masked autoencoders to self-supervised representation learning from ECG time
+	series. The model is evaluated on the Fuwai dataset, comprising 220,251 ECG recordings annotated by medical
+	experts, and compared with six recent state-of-the-art methods. Ablation studies are conducted to identify key
+	components contributing to the model’s performance. Additionally, the method is evaluated on two public
+	datasets to assess its broader applicability.
+	Results: Experiments show that the proposed method increases the macro F1 scores by 2.8%–28.6% on the
+	Fuwai dataset, 10.4%–46.2% on the multicenter dataset and 19.1%–46.9% on the PTB-XL dataset for common
+	ECG diagnoses recognition tasks, compared to six alternative methods. Additionally, the proposed method
+	consistently achieves state-of-the-art performance on the PTB-XL superclass task in both linear probing and
+	fine-tuning evaluations. The masked pre-training strategy significantly enhances classification performance,
+	with key contributing factors including the masking ratio, training schedule length, fluctuating reconstruction
+	targets, layer-wise learning rate decay, and DropPath rate.
+	Conclusion: The Masked Transformer model exhibits superior performance in ECG classification, highlighting
+	its potential to advance ECG-based diagnostic systems.},
+	issn = {0010-4825},
+	doi = {10.1016/j.compbiomed.2025.110674},
+	url = {https://doi.org/10.1016/j.compbiomed.2025.110674},
+	html = {https://doi.org/10.1016/j.compbiomed.2025.110674.pdf}
 }
 
-@misc{zhou2025bridgingperformancegapsfoundation,
+
+
+
+@article{zhou2025bridg,
+	url = {https://arxiv.org/abs/2509.12991.pdf},
+	title={Bridging Performance Gaps for Foundation Models: A Post-Training Strategy for ECGFounder},
+	selected={true},
+	author={Zhou, Ya and Yang, Yuejie and  Fan, Xiaohan and Zhao, Wei},
+	journal={Arxiv. },
+	year = {2025},
 	abbr={Arxiv},
-	title={Bridging Performance Gaps for Foundation Models: A Post-Training Strategy for ECGFounder}, 
-	author={Ya Zhou and Yujie Yang and Xiaohan Fan and Wei Zhao},
-	year={2025},
-	eprint={2509.12991},
-	archivePrefix={arXiv},
-	primaryClass={cs.LG},
-	url={https://arxiv.org/abs/2509.12991}, 
+	html={https://arxiv.org/abs/2509.12991.pdf},
+	abstract={ECG foundation models are increasingly popular due to their adaptability across various tasks. However, their clinical applicability is often limited by performance gaps compared to task-specific models, even after pre-training on large ECG datasets and fine-tuning on target data. This limitation is likely due to the lack of an effective post-training strategy. In this paper, we propose a simple yet effective post-training approach to enhance ECGFounder, a state-of-the-art ECG foundation model pre-trained on over 7 million ECG recordings. Experiments on the PTB-XL benchmark show that our approach improves the baseline fine-tuning strategy by 1.2%-3.3% in macro AUROC and 5.3%-20.9% in macro AUPRC. Additionally, our method outperforms several recent state-of-the-art approaches, including task-specific and advanced architectures. Further evaluation reveals that our method is more stable and sample-efficient compared to the baseline, achieving a 9.1% improvement in macro AUROC and a 34.9% improvement in macro AUPRC using just 10% of the training data. Ablation studies identify key components, such as stochastic depth and preview linear probing, that contribute to the enhanced performance. These findings underscore the potential of post-training strategies to improve ECG foundation models, and we hope this work will contribute to the continued development of foundation models in the ECG domain.}
 }
+
+
+@article{zhou2025multi,
+	url = {https://arxiv.org/abs/2502.05494.pdf},
+	title={Multi-scale Masked Autoencoder for Electrocardiogram Anomaly Detection},
+	selected={true},
+	author={Zhou, Ya and Yang, Yujie and Gan, Jianhuang and Li, Xiangjie and Yuan, Jing and Zhao, Wei},
+	journal={Arxiv. Under review},
+	year = {2025},
+	abbr={Arxiv},
+	html={https://arxiv.org/abs/2502.05494.pdf},
+	abstract={Electrocardiogram (ECG) analysis is a fundamental tool for diagnosing cardiovascular conditions, yet anomaly detection in ECG signals remains challenging due to their inherent complexity and variability. We propose Multi-scale Masked Autoencoder for ECG anomaly detection (MMAE-ECG), a novel end-to-end framework that effectively captures both global and local dependencies in ECG data. Unlike state-of-the-art methods that rely on heartbeat segmentation or R-peak detection, MMAE-ECG eliminates the need for such pre-processing steps, enhancing its suitability for clinical deployment. MMAE-ECG partitions ECG signals into non-overlapping segments, with each segment assigned learnable positional embeddings. A novel multi-scale masking strategy and multi-scale attention mechanism, along with distinct positional embeddings, enable a lightweight Transformer encoder to effectively capture both local and global dependencies. The masked segments are then reconstructed using a single-layer Transformer block, with an aggregation strategy employed during inference to refine the outputs. Experimental results demonstrate that our method achieves performance comparable to state-of-the-art approaches while significantly reducing computational complexity-approximately 1/78 of the floating-point operations (FLOPs) required for inference. Ablation studies further validate the effectiveness of each component, highlighting the potential of multi-scale masked autoencoders for anomaly detection.}
+}
+
+
+
+
 
 @article{CN116407133B,
 	url = {https://patents.google.com/patent/CN116407133A/en},
@@ -78,7 +121,7 @@
 
 
 
-@article{zhang2023mul,
+@article{zhang2024mul,
 	abbr={Statistica Sinica},
 	title={Multivariate Varying-coefficient Models via Tensor Decomposition},
 	selected={true},
