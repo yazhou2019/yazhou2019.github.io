@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper on ‘SPEED-TR: A Self-Distilled and Pre-trained Transformer Model for Enhanced ECG Detection of Tricuspid Regurgitation’ has been accepted by npj Digital Medicine.
+Paper on ‘SPEED-TR: A Self-Distilled and Pre-trained Transformer Model for Enhanced ECG Detection of Tricuspid Regurgitation’ has been accepted by npj Digital Medicine.[[link]](https://www.nature.com/articles/s41746-025-02011-4)
